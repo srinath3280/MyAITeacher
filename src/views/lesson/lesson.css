@@ -1,0 +1,11 @@
+.lesson-heading{
+    width: 80%;
+    height: auto;
+    margin: 0px auto;
+    text-align: start;
+}
+
+.lesson-heading div h1{
+    color: rgb(9, 9, 175);
+    text-decoration: underline;
+}

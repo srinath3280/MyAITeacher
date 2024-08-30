@@ -1,0 +1,27 @@
+.practice-section1{
+    width: 80%;
+    height: auto;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.practice-section1-puzzle{
+    width: 25%;
+    height: auto;
+    margin: 25px auto;
+}
+
+.practice-heading{
+    width: 80%;
+    height: auto;
+    text-align: start;
+    margin: 25px auto;
+}
+
+
+.practice-section2{
+    width: 80%;
+    height: auto;
+    text-align: center;
+    margin: 50px auto 25px;
+}

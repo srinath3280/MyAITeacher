@@ -1,0 +1,98 @@
+.dashboard-heading {
+    width: 80%;
+    height: auto;
+    margin: 25px auto;
+    border: 1px solid rgb(247, 247, 247);
+    padding: 0px 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.dashboard-heading-block {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dashboard-heading-block h4 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.dashboard-heading-block p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+.dashboard-content {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 50px auto;
+}
+
+.dashboard-content-left {
+    width: 75%;
+    height: auto;
+    padding: 10px;
+    /* box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px; */
+}
+
+.dashboard-content-right {
+    width: 25%;
+    height: auto;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+
+.dashboard-content-left-1 {
+    width: 95%;
+    height: auto;
+    padding: 10px 20px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dashboard-content-left-2 {
+    width: 95%;
+    height: auto;
+    padding: 10px 20px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    margin-bottom: 10px;
+}
+
+.dashboard-content-left-1-left img {
+    width: 100px;
+    height: 100px;
+}
+
+.dashboard-content-left-1-right {
+    text-align: start;
+}
+
+
+
+/* In your CSS file or inside a <style> tag */
+/* div {
+    width: 600px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+canvas {
+    max-width: 100%;
+} */

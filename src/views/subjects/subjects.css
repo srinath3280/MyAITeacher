@@ -1,0 +1,49 @@
+.subjects-heading{
+    width: 80%;
+    height: auto;
+    margin: 0px auto;
+    text-align: start;
+}
+
+.subjects-heading div h1{
+    color: rgb(9, 9, 175);
+    text-decoration: underline;
+}
+
+.subjects-content{
+    width: 80%;
+    height: auto;
+    margin: 0px auto;
+    text-align: start;
+}
+
+.subjects-content-1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 25px 0px;
+    border: 1px solid grey;
+    padding: 20px;
+    color: blueviolet;
+}
+
+.subjects-content-1 a{
+    width: 100%;
+    height: auto;
+    text-decoration: none;
+    color: blue;
+    font-size: 30px;
+}
+.subjects-content-1 a:hover{
+    color: white;
+    background-color: black;
+}
+
+.subjects-content-1:hover{
+    color: white;
+    background-color: black;
+}

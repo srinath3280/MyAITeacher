@@ -1,0 +1,80 @@
+.home-heading{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+}
+
+.home-heading-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.home-heading-content-1{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(219, 217, 217);
+    line-height: 50px;
+    border-radius: 25%;
+    margin: 0px 25px;
+    font-size: 20px;
+}
+
+.home-heading-content-1 .bi-gem{
+    font-size: 20px;
+    color: red;
+}
+
+.home-heading-content-2{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(219, 217, 217);
+    line-height: 50px;
+    border-radius: 25%;
+    margin: 0px 25px;
+    font-size: 20px;
+}
+
+.home-heading-content-2 .bi-gem{
+    font-size: 20px;
+    color: blue;
+}
+
+.home-content{
+    width: 80%;
+    height: auto;
+    margin: 25px auto;
+}
+
+.home-content-learning{
+    width: 100%;
+    height: auto;
+    border: 2px solid grey;
+    padding: 25px;
+    text-align: start;
+    margin-bottom: 25px;
+}
+
+.home-content-classes{
+    width: 100%;
+    height: auto;
+    border: 2px solid grey;
+    padding: 25px;
+    text-align: start;
+    margin-bottom: 25px;
+}
+
+.home-content-practice{
+    width: 100%;
+    height: auto;
+    border: 2px solid grey;
+    padding: 25px;
+    text-align: start;
+    margin-bottom: 25px;
+}
