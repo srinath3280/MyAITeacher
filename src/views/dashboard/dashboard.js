@@ -108,7 +108,7 @@ const Dashboard = () => {
                                 Name : <span>Srinath</span>
                             </p>
                             <p>
-                                Class : <span>I</span>
+                                Class : <span>III</span>
                             </p>
                         </div>
                     </div>
