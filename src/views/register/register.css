@@ -1,0 +1,64 @@
+/* Login3 css */
+
+.login-container3 {
+    background-image: url('/public/images/log3bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-box {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    width: 300px;
+  }
+  
+  .login-box h2 {
+    margin-bottom: 20px;
+  }
+  
+  .login-box input[type="email"],
+  .login-box input[type="password"],
+  .login-box input[type="text"],
+  .login-box input[type="number"]
+   {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .login-box .terms {
+    text-align: left;
+    margin: 10px 0;
+  }
+  
+  .login-box .terms input {
+    margin-right: 10px;
+  }
+  
+  .login-box .terms a {
+    color: #ffa500;
+    text-decoration: none;
+  }
+  
+  .login-box button {
+    background-color: #ff5722;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .login-box button:hover {
+    background-color: #e64a19;
+  }

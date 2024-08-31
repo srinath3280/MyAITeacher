@@ -18,6 +18,8 @@ import Unit1 from './views/unit1/unit1';
 import Lesson from './views/lesson/lesson';
 import Practice from './views/practice/practice';
 import Dashboard from './views/dashboard/dashboard';
+import Login from './views/login/login';
+import Register from './views/register/register';
 
 const router = createBrowserRouter([
   {
@@ -29,28 +31,36 @@ const router = createBrowserRouter([
         element: <Home></Home>
       },
       {
-        path:'/subjects',
-        element:<Subjects></Subjects>
+        path: '/login',
+        element: <Login></Login>
       },
       {
-        path:'/english',
-        element:<English></English>
+        path:'/register',
+        element:<Register></Register>
       },
       {
-        path:'/unit1',
-        element:<Unit1></Unit1>
+        path: '/subjects',
+        element: <Subjects></Subjects>
       },
       {
-        path:'/lesson',
-        element:<Lesson></Lesson>
+        path: '/english',
+        element: <English></English>
       },
       {
-        path:'/practice',
-        element:<Practice></Practice>
+        path: '/unit1',
+        element: <Unit1></Unit1>
       },
       {
-        path:'/dashboard',
-        element:<Dashboard></Dashboard>
+        path: '/lesson',
+        element: <Lesson></Lesson>
+      },
+      {
+        path: '/practice',
+        element: <Practice></Practice>
+      },
+      {
+        path: '/dashboard',
+        element: <Dashboard></Dashboard>
       }
     ]
   },
