@@ -1,0 +1,10 @@
+.practiceexam-heading{
+    width: 80%;
+    height: auto;
+    text-align: start;
+    margin: 25px auto;
+}
+
+.practiceexam-heading div h4{
+    font-size: 25px;
+}

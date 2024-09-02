@@ -17,6 +17,9 @@ const Unit1 = () => {
                 <div className='unit-content-1'>
                     <a href='/practice'>Practice Sessions</a>
                 </div>
+                <div className='unit-content-1'>
+                    <a href='/practiceexam'>Practice Exam</a>
+                </div>
             </section>
         </div>
     )

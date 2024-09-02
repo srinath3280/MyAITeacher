@@ -1,17 +1,17 @@
-.practice-section1{
+.practice-section1 {
     width: 80%;
     height: auto;
     text-align: center;
     margin: 0px auto;
 }
 
-.practice-section1-puzzle{
+.practice-section1-puzzle {
     width: 25%;
     height: auto;
     margin: 25px auto;
 }
 
-.practice-heading{
+.practice-heading {
     width: 80%;
     height: auto;
     text-align: start;
@@ -19,7 +19,14 @@
 }
 
 
-.practice-section2{
+.practice-section2 {
+    width: 80%;
+    height: auto;
+    text-align: center;
+    margin: 50px auto 25px;
+}
+
+.practice-section3 {
     width: 80%;
     height: auto;
     text-align: center;

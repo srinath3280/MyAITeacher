@@ -20,6 +20,8 @@ import Practice from './views/practice/practice';
 import Dashboard from './views/dashboard/dashboard';
 import Login from './views/login/login';
 import Register from './views/register/register';
+import Profile from './views/profile/profile';
+import PracticeExam from './views/practiceexam/practiceexam';
 
 const router = createBrowserRouter([
   {
@@ -59,8 +61,16 @@ const router = createBrowserRouter([
         element: <Practice></Practice>
       },
       {
+        path:'/practiceexam',
+        element:<PracticeExam></PracticeExam>
+      },
+      {
         path: '/dashboard',
         element: <Dashboard></Dashboard>
+      },
+      {
+        path:'/profile',
+        element:<Profile></Profile>
       }
     ]
   },
